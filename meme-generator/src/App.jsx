@@ -7,7 +7,7 @@ function App() {
   const [count, setCount] = useState(0)
 
     return (
-      <body className="min-h-screen">
+      <body className="font-karla dark:bg-gray-900">
         <Header />
         <Meme />
       </body>
