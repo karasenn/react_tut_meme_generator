@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import Header from './Header.js'
-import Meme from './Meme.js'
+import Header from './Header'
+import Meme from './Meme'
 
 function App() {
   const [count, setCount] = useState(0)
